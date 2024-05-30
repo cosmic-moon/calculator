@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: rgb(0, 255, 255);
+      font-family: monospace;
+      letter-spacing: 1px;
+      font-size: large;
+    }
+
+    button {
+      display: block;
+      background-color: rgb(238, 89, 4);
+      color: azure;
+      width: 100px;
+
+      padding: 10px;
+      margin: 25px;
+      border-radius: 20px;
+    }
+
+    input {
+      width: 100px;
+      height: 20px;
+    }
+
+    #ans {
+      font-weight: bold;
+    }
+  </style>
+  <title>Calc</title>
+</head>
+
+<body>
+  <center>
+    <h3>Enter First number :</h3>
+    <input type="number" id="num1">
+    <h3>Enter Second number :</h3>
+    <input type="number" id="num2"> <br> <br>
+    <button onclick="add()"> ADD </button>
+    <button onclick="substract()">SUBSTRACT</button>
+    <button onclick="multiply()"> MULTIPLY</button>
+    <button onclick="divide()"> DIVIDE </button>
+    <P> YOUR RESULT IS : <span id="ans"> 0 </span> </P>
+
+
+
+
+
+
+    <script>
+
+      var result = document.querySelector("#ans");
+
+      function add() {
+        var a = parseInt(document.querySelector("#num1").value)
+        var b = parseInt(document.querySelector("#num2").value)
+
+        result.innerHTML = a + b;
+      }
+
+      function substract() {
+        var a = parseInt(document.querySelector("#num1").value)
+        var b = parseInt(document.querySelector("#num2").value)
+
+        result.innerHTML = a - b;
+      }
+
+      function multiply() {
+        var a = parseInt(document.querySelector("#num1").value)
+        var b = parseInt(document.querySelector("#num2").value)
+
+        result.innerHTML = a * b;
+      }
+
+      function divide() {
+        var a = parseInt(document.querySelector("#num1").value)
+        var b = parseInt(document.querySelector("#num2").value)
+
+        result.innerHTML = a / b;
+      }
+    </script>
+
+</body>
+
+</html>
