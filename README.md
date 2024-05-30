@@ -8,7 +8,6 @@ This is a simple web-based calculator that allows users to perform basic arithme
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview
@@ -27,13 +26,13 @@ The Simple Web Calculator is a lightweight, easy-to-use web application built wi
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/simple-web-calculator.git
+    git clone https://github.com/cosmic-moon/calculator.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd simple-web-calculator
+    cd calculator
     ```
 
 3. Open `index.html` in your preferred web browser:
@@ -74,14 +73,11 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 5. Open a pull request on GitHub.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
 For any questions or suggestions, feel free to contact me:
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [cosmic-moon](https://github.com/cosmic-moon)
+- Email: [bcsbhuvan@gmail.com](bcsbhuvan@gmail.com)
 
