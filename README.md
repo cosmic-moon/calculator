@@ -1,6 +1,6 @@
 # Simple Web Calculator
 
-This is a simple web-based calculator that allows users to perform basic arithmetic operations including addition, subtraction, multiplication, and division.
+This is a simple web-based calculator that allows users to perform basic arithmetic operations including addition, subtraction, multiplication, and division. This code was converted into java script from python...
 
 ## Table of Contents
 - [Overview](#overview)
